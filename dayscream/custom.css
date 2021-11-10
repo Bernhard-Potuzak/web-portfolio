@@ -1,0 +1,282 @@
+body
+{
+	text-align:center;
+	background-color:#19212d;
+	color:#ffffff;
+	margin:0px;
+	padding:0px;
+	font-family:'Tinos', serif;
+	font-size:110%;
+	line-height:130%;
+	position:absolute;
+	width:100%;
+	height:100%;
+
+	background-image:url("assets/house.jpg");
+	background-size:900px 400px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-attachment:local;
+}
+
+a:link,
+a:active,
+a:visited
+{
+	color:#fe2626;
+	text-decoration:none;
+}
+
+ul
+{
+	margin:0px;
+	padding:0px;
+	padding-left:32px;
+}
+
+li
+{
+	margin:0px;
+	padding:0px;
+}
+
+img
+{
+	margin:0px;
+	border-width:0;
+	vertical-align:middle;
+}
+
+img.image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img.image:hover {
+    box-shadow: 0 0 4px 4px rgba(0, 140, 186, 0.5);
+  }
+
+div
+{
+	margin:0px;
+	padding:0px;
+}
+
+div.maincontainer
+{
+	max-width:600px;
+	min-height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+    text-align:justify;
+    margin-top: 150px;
+}
+
+div.logocontainer
+{
+	position:relative;
+	height:300px;
+}
+
+img.logo
+{
+	position:relative;
+	top:70px;
+	width:100%;
+	max-width:800px;
+}
+
+div.pitch
+{
+	text-align:center;
+	padding-bottom:24px;
+}
+
+div.youtube
+{
+}
+
+div.buy
+{
+	text-align:center;
+	padding-top:24px;
+	padding-bottom:0px;
+}
+
+div.buylast
+{
+	text-align:center;
+	padding-top:24px;
+	padding-bottom:32px;
+}
+
+div.screens
+{
+	padding-bottom:27px;
+	text-align:center;
+}
+
+div.screensrow
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:107px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+div.screen
+{
+	width:200px;
+	float:left;
+}
+
+div.label
+{
+	color:#fe2626;
+	font-family: 'Acme', sans-serif;
+	font-size:150%;
+	text-align:left;
+	padding-left:0px;
+	padding-bottom:8px;
+}
+
+div.content
+{
+	padding-bottom:32px;
+}
+
+div.copyright
+{
+	text-align:center;
+	font-size:75%;
+}
+
+/* stuff from GA lightbox follows */
+
+div.class_lightboxbackground
+{
+	position:fixed;
+	left: 0%;
+	top: 0%;
+	
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(0,0,0,0.5);
+}
+
+div.class_lightboxouter
+{
+	visibility: hidden;
+}
+
+div.class_lightbox
+{	
+	position:fixed;
+	left: 10%;
+	top: 10%;
+	
+	width: 80%;
+	height: 80%;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+	background-color: #0d0033;
+	border-radius: 16px;
+}
+
+div.class_lightboxleftarrow
+{
+	float: left;
+	
+	position: absolute;
+	left: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	
+	max-width: 100px;
+	max-height: 100px;
+	
+	width: 10vw;
+	height: 10vw;
+}
+
+div.class_lightboxrightarrow
+{
+	float: right;
+	
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	
+	max-width: 100px;
+	max-height: 100px;
+
+	width: 10vw;
+	height: 10vw;
+}
+
+div.class_lightboxclose
+{
+	float: right;
+	
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	
+	max-width: 75px;
+	max-height: 75px;
+
+	width: 10vw;
+	height: 10vw;
+}
+
+img.class_lightboxarrow
+{
+	width: 100%;
+	height: 100%;
+}
+
+div.class_lightboximage
+{
+	clear: both;
+	
+	width: 90%;
+	height: 90%;
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+		
+	text-align: center;
+}
+
+img.class_lightboximage
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	vertical-align: middle;
+
+	width: 100%;
+	height: 100%;
+	
+	max-width: 128.0vh;
+	max-height: 40.5vw;
+}

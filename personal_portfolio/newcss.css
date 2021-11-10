@@ -1,0 +1,219 @@
+* {
+	  box-sizing: border-box;
+}
+
+body{
+	background:#EFECEB;
+}
+
+head{
+	background-image: cliff.jpg;
+}
+
+.header-title{
+	background-image: url(img/cliff.jpg);
+	background-size: 100%;
+	background-position: center;
+	height: 100%;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-top: 20px
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px 20px 20px 20px; /* 5px rounded corners */
+  background: none;
+  overflow: hidden;
+  width: 50%;
+  max-width: 512px; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card, img {
+	max-width: 512px;
+	border-radius: 20px 20px 0 0;
+	width: 100%;
+	display: block;
+	object-fit: contain;
+}
+
+.card-bottom {
+	padding: 15px 30px;
+	align-items: center;
+	border-radius: 0 0 20px 20px;
+}
+
+
+.card-bottom, p {
+	color: white;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+/* Game Specifics  */
+/* Game Specifics  */
+.card-bottom.dayscream {
+	background: #747DE4;
+	//background: linear-gradient(90deg, #747DE4 0%, #E47474 100%);
+}
+
+.card-bottom.dustworld {
+	background: #EA3F4F;
+	//background: linear-gradient(90deg, #747DE4 0%, #E47474 100%);
+}
+
+.card-bottom.indeep {
+	background: #C09961;
+	//background: linear-gradient(90deg, #747DE4 0%, #E47474 100%);
+}
+
+.circle {
+    display: block;
+    height: 200px;
+    width: 200px;
+    line-height: 60px;
+
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    background-color: white;
+    opacity:0.8;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.circle__content {
+  padding-top: 1em;
+  vertical-align: middle;
+  font-size: 4em;
+  opacity:1.0;
+}
+
+.page-container {
+	display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+}
+
+/*BUTTONS*/
+
+ .button-steam {
+    border: 2px solid white;
+	background: #2a475e;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	  text-decoration: none;
+	  /* display: inline-block; */
+	font-size: 16px;
+	border-radius: 20px;
+	
+	transition: all 200ms ease;  // Animation
+}
+
+.button-steam:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	background: #66c0f4;
+}
+
+ .button-android {
+    border: 2px solid white;
+	background: #34a853;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	  text-decoration: none;
+	  /* display: inline-block; */
+	font-size: 16px;
+	border-radius: 20px;
+	
+	transition: all 200ms ease;  // Animation
+}
+
+.button-android:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	background: #fbbc05;
+}
+
+ .button-learn-more {
+    border: 2px solid white;
+	background: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	  /* display: inline-block; */
+	font-size: 16px;
+	border-radius: 20px;
+	
+	transition: all 200ms ease;  // Animation
+}
+
+.button-learn-more:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+ .button-itch
+ {
+ 	border: 2px solid white;
+ 	background: none;
+ 	padding: 10px 20px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	/* display: inline-block; */
+ 	font-size: 16px;
+ 	border-radius: 20px;
+ 	transition: all 200ms ease;
+ 	// Animation: ;
+ }
+
+.button-itch:hover{
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	background: #EA3F4F;
+}
+
+/*FOOTER*/
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #717475
+}
+
+footer p {
+  margin-bottom: .25rem;
+  color: #717475 !important;
+}
+
+.text-muted {
+    color: #717475 !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.float-left {
+    float: left !important;
+}
